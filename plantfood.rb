@@ -14,13 +14,13 @@ elephant_watering_can_volume_oz = 16 * 5
 
 # growing
 # acidic
-# neutralize with ~40 drops of pH UP (blue)
-growing_food_tsp_per_gal = { :big_bloom => 6, :grow_big => 3 }
+# neutralize with ~50 drops of pH UP (blue)
+# growing_food_tsp_per_gal = { :big_bloom => 6, :grow_big => 3 }
 
 # flowering
 # very acidic
 # neutralize with ~75 drops of pH UP (blue)
-#growing_food_tsp_per_gal = { :big_bloom => 3, :grow_big => 2, :tiger_bloom => 2 }
+growing_food_tsp_per_gal = { :big_bloom => 3, :grow_big => 2, :tiger_bloom => 2 }
 
 food_total_tsp = {}
 growing_food_tsp_per_gal.each_pair do |food_type, food_tsp|
